@@ -1,0 +1,213 @@
+/* =========================================================
+   RESET
+   ========================================================= */
+
+/* Selecciona TODOS los elementos de la página */
+* {
+    /* Elimina los márgenes que el navegador pone por defecto */
+    margin: 0;
+
+    /* Elimina el espacio interno que el navegador pone por defecto */
+    padding: 0;
+
+    /* Hace que el ancho y alto incluyan también el padding y el borde */
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HTML Y BODY
+   ========================================================= */
+
+/* Selecciona la etiqueta <html> y la etiqueta <body> */
+html,
+body {
+    /* Hace que ocupen todo el ancho disponible */
+    width: 100%;
+
+    /* Permite que ocupen como mínimo toda la altura disponible */
+    min-height: 100%;
+
+    /* Define la fuente que utilizará la página */
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================================================
+   ENCABEZADO
+   ========================================================= */
+
+/* Selecciona la etiqueta <header> */
+header {
+    /* Hace que el header ocupe todo el ancho de la página */
+    width: 100%;
+
+    /* El header ocupará como mínimo el 30% de la altura
+       de la ventana del navegador */
+    min-height: 30vh;
+
+    /* Color del texto */
+    color: beige;
+
+    /* Color de fondo del encabezado */
+    background-color: rgb(197, 29, 29);
+
+    /* Activa Flexbox */
+    display: flex;
+
+    /* Centra el contenido horizontalmente */
+    justify-content: center;
+
+    /* Centra el contenido verticalmente */
+    align-items: center;
+
+    /* Centra el texto */
+    text-align: center;
+}
+
+
+/* =========================================================
+   BARRA DE NAVEGACIÓN
+   ========================================================= */
+
+/* Selecciona la etiqueta <nav> */
+nav {
+    /* Hace que la barra ocupe todo el ancho */
+    width: 100%;
+
+    /* Color del texto */
+    color: yellow;
+
+    /* Color de fondo */
+    background-color: lightslategray;
+
+    /* Añade 15px de espacio interno */
+    padding: 15px;
+
+    /* Activa Flexbox */
+    display: flex;
+
+    /* Centra los elementos horizontalmente */
+    justify-content: center;
+
+    /* Deja 20px de separación entre los elementos */
+    gap: 20px;
+}
+
+
+/* =========================================================
+   CONTENIDO PRINCIPAL
+   ========================================================= */
+
+/* Selecciona todas las etiquetas <section> */
+section {
+    /* Hace que la sección ocupe todo el ancho */
+    width: 100%;
+
+    /* La sección ocupará como mínimo el 50% de la altura
+       de la ventana */
+    min-height: 50vh;
+
+    /* Activa Flexbox */
+    display: flex;
+
+    /* Permite que los elementos bajen a otra línea
+       cuando no haya suficiente espacio */
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   ARTÍCULOS
+   ========================================================= */
+
+/* Selecciona todas las etiquetas <article> */
+article {
+    /* Hace que el artículo ocupe el espacio disponible */
+    flex: 1;
+
+    /* Evita que el artículo sea demasiado pequeño */
+    min-width: 300px;
+
+    /* Crea un borde de 1px de color azul */
+    border: 1px solid blue;
+
+    /* Alinea el texto a la izquierda */
+    text-align: left;
+
+    /* Color del texto */
+    color: lightslategray;
+
+    /* Color de fondo */
+    background-color: rgb(243, 243, 204);
+
+    /* Crea 20px de espacio entre el contenido
+       y los bordes del artículo */
+    padding: 20px;
+}
+
+
+/* =========================================================
+   BARRA LATERAL
+   ========================================================= */
+
+/* Selecciona la etiqueta <aside> */
+aside {
+    /* Define un ancho de 250px */
+    width: 250px;
+
+    /* Crea un borde azul de 1px */
+    border: 1px solid blue;
+
+    /* Centra el texto */
+    text-align: center;
+
+    /* Color del texto */
+    color: lightslategray;
+
+    /* Color de fondo */
+    background-color: white;
+
+    /* Añade 20px de espacio interno */
+    padding: 20px;
+}
+
+
+/* =========================================================
+   PIE DE PÁGINA
+   ========================================================= */
+
+/* Selecciona la etiqueta <footer> */
+footer {
+    /* Hace que ocupe todo el ancho */
+    width: 100%;
+
+    /* Centra el texto */
+    text-align: center;
+
+    /* Color del texto */
+    color: white;
+
+    /* Color de fondo */
+    background-color: gray;
+
+    /* Añade 20px de espacio interno */
+    padding: 20px;
+}
+
+
+/* =========================================================
+   TÍTULOS H3
+   ========================================================= */
+
+/* Selecciona todas las etiquetas <h3> */
+h3 {
+    /* Añade 20px de espacio interno */
+    padding: 20px;
+
+    /* Cambia el color del texto */
+    color: rgb(148, 92, 92);
+
+    /* Centra el texto */
+    text-align: center;
+}
